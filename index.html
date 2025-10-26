@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/nikelogo.jpg" alt="nikelogo" width="160" height="160">
+            <h1>Bienvenido</h1>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menú">&#9776;</button>
+        </div>
+
+        <div class="menu-content" id="menuContent">
+            <nav>
+                <ul>
+                    <li><a href="">Zapatillas</a>
+                    </li>
+                    <li><a href="">Ropa</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="buscador">
+                <input type="text" placeholder="Buscar...">
+                <button>Enviar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="fondo">
+            <div class="seccion-morada">
+                <div class="caja-texto">
+                    <h2>LA MORADA DEL PUEBLO</h2>
+                    <p>COLECCION 2025</p>
+                </div>
+                <img src="img/Polo.png" alt="Camiseta Morada" class="camiseta-img">
+            </div>
+        </section><br><br>
+        <h2 class="modelostitulos">MODELOS:</h2><br><br>
+        <div class="modelos">
+            <a class="zapatilla" href="">
+                <img src="img/zapas1.png" alt="nike1">
+            </a>
+            <a class="zapatilla" href="">
+                <img src="img/zapas2.png" alt="nike2">
+            </a>
+            <a class="zapatilla" href="">
+                <img src="img/zapas3.png" alt="nike3">
+            </a>
+        </div><br><br><br>
+        <section id="compragenero">
+            <div class="titulogenero">
+                <h2>COMPRA POR GÉNERO:</h2>
+            </div>
+            <div class="imagenes">
+                <a class="genero" href=""><br>
+                    <img src="img/Hombre.jpg" alt="Hombre">
+                </a>
+                <a class="genero" href=""><br>
+                    <img src="img/mujer.jpg" alt="Mujer">
+
+                </a>
+            </div>
+        </section>
+        <section id="formulario_con">
+            <h2 class="formulariotitulo">CONTACTANOS:</h2>
+            <form action="" id="formulario">
+                <label for="Nombre">Nombre</label>
+                <input type="text" name="Nombre" id="nombre" required>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="Apellido" id="apellido" required>
+                <label for="Numero">Número</label>
+                <input type="number" name="Numero" id="numero" required>
+                <label for="Correo">Correo</label>
+                <input type="email" name="Correo" id="correo" required>
+                <button type="submit" id="enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer-nike-simulado">
+        <div class="footer-contenido">
+            <div class="columna">
+                <h3>BUSCAR TIENDA</h3>
+                <p>REGÍSTRATE PARA RECIBIR CORREOS</p>
+                <h3>HAZTE MIEMBRO</h3>
+                <h3>CONSEJOS DE ESTILO</h3>
+            </div>
+
+            <div class="columna">
+                <h3>OBTENER AYUDA</h3>
+                <ul>
+                    <li>Estado del Pedido</li>
+                    <li>Envío y entrega</li>
+                    <li>Cambios, devoluciones y garantías</li>
+                    <li>Opciones de pago</li>
+                    <li>Preguntas frecuentes</li>
+                    <li>Comunícate con nosotros</li>
+                </ul>
+            </div>
+
+            <div class="columna">
+                <h3>ACERCA DE NIKE</h3>
+                <ul>
+                    <li>Empleo</li>
+                </ul>
+            </div>
+
+            <div class="columna-derecha">
+                <div class="redes-sociales">
+                    <a href="" class="icono-social">F</a> <a href="" class="icono-social">T</a> <a href=""
+                        class="icono-social">I</a> <a href="" class="icono-social">Y</a>
+                </div>
+                <div class="libro-reclamaciones">
+                    <p>Libro de Reclamaciones</p>
+                    <div class="icono-libro">📚</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-legal">
+            <p>© 2024 Empresa SAC. Todos los derechos reservados.</p>
+            <div class="enlaces-legal">
+                <a href="">Términos y Condiciones</a> |
+                <a href="">Factura Electrónica</a> |
+                <a href="">Política de privacidad</a>
+            </div>
+        </div>
+    </footer>
+    <div class="contenedor-chat">
+        <button id="boton-abrir-chat" class="boton-chat" onclick="alternarChat()">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="Logo de Nike"
+                class="logo-nike">
+        </button>
+
+        <div id="ventana-chat" class="ventana-chat">
+            <div class="cabecera-chat">
+                <h4>¿En qué podemos ayudarte?</h4>
+                <button class="boton-cerrar" onclick="alternarChat()">X</button>
+            </div>
+            <div class="cuerpo-chat">
+                <p>Déjanos un mensaje y te responderemos tan pronto como sea posible.</p>
+                <textarea placeholder="Escribe tu mensaje..."></textarea>
+                <button class="boton-enviar">Enviar</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>

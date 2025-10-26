@@ -1,0 +1,106 @@
+.footer-nike-simulado {
+    background-color: var(--fondo-negro);
+    color: var(--texto-claro);
+    padding: 30px 50px 15px 50px;
+    font-family: var(--family-Gudea);
+    font-size: 14px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--borde-gris);
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.columna {
+    margin-right: 40px;
+    width: 20%;
+}
+
+.columna h3 {
+    font-size: 14px;
+    color: var(--texto-claro);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.columna p,
+.columna li {
+    font-size: 12px;
+    color: var(--texto-gris);
+    margin-bottom: 8px;
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.columna-derecha {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.icono-social {
+    color: var(--color-social);
+    background-color: var(--fondo-libro);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: var(--weight-bold-Gudea);
+}
+
+.libro-reclamaciones {
+    background-color: var(--fondo-libro);
+    border: 1px solid var(--borde-gris);
+    padding: 15px;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.libro-reclamaciones p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.icono-libro {
+    font-size: 24px;
+}
+
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--texto-gris);
+    font-size: 10px;
+}
+
+.footer-legal p {
+    margin: 0;
+}
+
+.enlaces-legal a {
+    color: var(--texto-gris);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.enlaces-legal a:hover {
+    text-decoration: underline;
+}

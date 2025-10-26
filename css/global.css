@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap');
+
+
+
+:root {
+    --colorPrimario: #000000;
+    --colorSecundario: #005147;
+    --colorTerciario: #ba2b2b;
+    --colorClaro: #ea553b;
+    --colorOscuro: #ffffff;
+    --coloruno: #2c2c2c;
+    --colorazul: #2575fc;
+    --fondo-negro: #111111;
+    --texto-claro: #f1f1f1;
+    --texto-gris: #9e9e9e;
+    --borde-gris: #555555;
+    --fondo-libro: #2d2d2d;
+    --color-social: #ffffff;
+    --family-Gudea: "Gudea", sans-serif;
+    --weight-regular-Gudea: 400;
+    --weight-bold-Gudea: 700;
+    --style-Gudea: normal;
+    --family-UbuntuMono: "Ubuntu Mono", monospace;
+    --weight-UbuntuMono-regular: 400;
+    --weight-UbuntuMono-bold: 700;
+    --style-UbuntuMono: normal;
+    --family-Prompt: "Prompt", sans-serif;
+    --weight-Prompt-light: 300;
+    --weight-Prompt-regular: 400;
+    --weight-Prompt-medium: 500;
+    --weight-Prompt-bold: 700;
+    --style-Prompt: normal;
+    --font-family-Changa: "Changa One", sans-serif;
+    --font-weight-Changa: 400;
+    --font-style-Changa: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: var(--family-Gudea);
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-family: var(--family-Gudea);
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: var(--family-Gudea);
+    font-size: 2.5rem;
+}
+
+h4 {
+    font-family: var(--family-Gudea);
+    font-size: 2rem;
+}
+
+h5 {
+    font-family: var(--family-Gudea);
+    font-size: 1.5rem;
+}
+
+h6 {
+    font-family: var(--family-Gudea);
+    font-size: 1rem;
+}
